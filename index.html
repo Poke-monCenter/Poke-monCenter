@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java-pasar.js"></script>
+    <title>Inicio</title>
+</head>
+<body class="body-index">
+    <header class="head96">
+        <div class="header-left">
+            <div class="logo">
+                <img src="img/logo-pokeball-grafiti.jfif" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" class="active">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="index.html#tienda5">Tienda Pokemon</a>
+                    </li>
+                    <li>
+                        <a href="GenPoke.html">Pokemon Generations</a>
+                    </li>
+                    <li>
+                        <a href="tcg.html">TCG</a>
+                    </li>
+                    <li>
+                        <a href="ash.html">Ash</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="login-signup">
+                    <a href="login.html">Login</a> or <a href="login.html">Signup</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="login-signup">
+                <a href="login.html">Login</a> or <a href="login.html">Signup</a>
+            </div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("active");
+        }
+    </script>
+    <div class="banner-index">
+        <img class="poke-center" src="img/poke-center.svg" alt="">
+        <h6 class="alexrodri">@RODRIGO GÁLVEZ AND ALEJANDRO CUADRADO</h6>
+
+    </div>
+    <div class="banner-shop">
+        <a href="#tienda3"><img class="poke-1" src="img/poke-ropa.png" alt=""></a>
+        <a href="#tienda1"><img class="poke-2" src="img/poke-trading.png" alt=""></a>
+        <a href="#tienda2"><img class="poke-3" src="img/poke-peluche.png" alt=""></a>
+        <a href="#tienda4"><img class="poke-4" src="img/poke-home.png" alt=""></a>
+        <a href="#tienda5"><div class="shopnow"></div></a>
+    </div>
+    <span class="mover-index">
+    <div class="titulo"><img class="pokemon" src="img/Pokemonl.png" alt=""></div>
+    <div class="PokemonsCM" id="contenido-original">
+        <h1 class="TPKC">Pokemons Comunes</h1>
+        <div><img class="Comun" src="img/Machamp.jpg" alt=""></div>
+        <div><img class="Comun" src="img/Pikachu.jpg" alt=""></div>
+        <div><img class="Comun" src="img/Infernape.jpg" alt=""></div>
+        <div><img class="Comun" src="img/Incineroar.jpg" alt=""></div>
+        <div><img class="Comun" src="img/Scizor.jpg" alt=""></div>
+        <div><img class="Comun" src="img/Blastoise.jpg" alt=""></div>    
+    </div>
+    <div class="PokemonsMG" style="display:none;"  id="contenido-1">
+        <h1 class="TPKM">Mega Evoluciones</h1>
+        <img class="Normal" src="img/Blaziken.jpg"><img class="Mega" src="img/Mega-BlaiZiken.png">
+        <img class="NormalL" src="img/Lucario.jpg"><img class="MegaL" src="img/MegaLC.png">
+    </div>
+    <div class="PokemonsDM" style="display:none;" id="contenido-2">
+        <h1 class="TPKD">Dinamax</h1>
+        <div><img class="Chiquito" src="img/charizard3.png" alt=""></div>
+        <div><img class="ChiquitoS" src="img/Snorlax.jpg" alt=""></div>
+        <div class="DN"><img class="Dinamax" src="img/CharizardDinamax.png" alt=""></div>
+        <div class="DN"><img class="DinamaxS" src="img/SnorlaxDinamax.png" alt=""></div>
+    </div>
+    <div class="PokemonsL" style="display:none;" id="contenido-3">
+        <h1 class="TPKL">Legendarios</h1>
+        <div class="card99">
+            <div class="face front">
+                <img src="img/ZapdosGalar.jpg" alt="">
+                <h3>Zapdos</h3>
+            </div>
+            <div class="face back">
+                <h3>Zapdos</h3>
+                <p>Este Pokémon migratorio aparece en las Nieves de la Corona una vez cada varias décadas. Siempre está ansioso por combatir y no puede resistir las ganas de retar a cualquier Pokémon que parezca más poderoso que él</p>
+                <div class="link"><a href="#"></a></div>
+            </div>
+        </div>
+        <div class="card99">
+            <div class="face front">
+                <img src="img/MewtwoV.jpg" alt="">
+                <h3>Mewtwo</h3>
+            </div>
+            <div class="face back">
+                <h3>Mewtwo</h3>
+                <p>Mewtwo una creacion de los humanos con el unico fin de intentar alcanzar la perfeccion pero aquel que estaba destinado a ser perfecto se dio cuenta de que no tenia sentido ser controlado por criaturas inferiores</p>
+                <div class="link"><a href="#"></a></div>
+            </div>
+        </div>
+        <div class="card99">
+            <div class="face front">
+                <img src="img/GiratinaV.jpg" alt="">
+                <h3>Giratina</h3>
+            </div>
+            <div class="face back">
+                <h3>Giratina</h3>
+                <p>Giratina, también llamado Pokémon Renegado, vive en la dimensión conocida como el Mundo Distorsión. Tiene dos formas, y en nuestro mundo solo puede verse su Forma origen con la ayuda de una Griseosfera</p>
+                <div class="link"><a href="#"></a></div>
+            </div>
+        </div>
+        <div class="card99">
+            <div class="face front">
+                <img src="img/LugiaV.jpg" alt="">
+                <h3>Lugia</h3>
+            </div>
+            <div class="face back">
+                <h3>Lugia</h3>
+                <p>Lugia se originó mientras se creaba el universo, entonces sólo existían islas y agua. Se cree que él mismo creó la Luna. Lugia tiene la capacidad de controlar la marea, ya que este Pokémon representa a la Luna</p>
+                <div class="link"><a href="#"></a></div>
+            </div>
+        </div>
+        <div class="card99 card88">
+            <div class="face front">
+                <img src="img/ZeraoraX.jpg" alt="">
+                <h3>Zeraora</h3>
+            </div>
+            <div class="face back">
+                <h3>Zeraora</h3>
+                <p>Se dice que los Zeraora viajan a la velocidad del rayo. Tienen unas afiladas garras con las que atacar por sorpresa. También puede electrificar sus garras, haciéndolas más poderosas</p>
+                <div class="link"><a href="#"></a></div>
+            </div>
+        </div>
+        <div class="card99 card88">
+            <div class="face front">
+                <img src="img/DarkraiGX.jpg" alt="">
+                <h3>Darkrai</h3>
+            </div>
+            <div class="face back">
+                <h3>Darkrai</h3>
+                <p>Darkrai es el Pokémon de la oscuridad y del terror. Si este Pokémon aparece una noche de luna nueva, puede provocar pesadillas sin fin a su antojo y de las que nadie puede escapar</p>
+                <div class="link"><a href="#"></a></div>
+            </div>
+        </div>
+        </div>
+    <div class="PokemonsU" style="display:none;" id="contenido-4">
+        <h1 class="TPKU">Ultraentes</h1>
+        <div class="N"><img class="Necrozma" src="img/Necrozma.jpg" alt=""></div>
+        <div class="UN"><img class="UNecrozma" src="img/UNcrozma.jpg" alt=""></div>
+        <div class="SN"><img class="SolgaleoU" src="img/SolgaleoU.jpg" alt=""></div>
+        <div class="LN"><img class="LunalaU" src="img/LunalaU.jpg" alt=""></div>
+    </div>
+    <div class="PokemonsE" style="display:none;" id="contenido-5">
+        <h1 class="TPKE">Pokemons Especiales</h1>
+        <div class="AR"><img class="Arm" src="img/Armored.jpg" alt=""></div>
+        <div class="MW"><img class="NM" src="img/MewtwoVX.jpg" alt=""></div>
+        <div class="GR"><img class="GN" src="img/GreninjaN.jpg" alt=""></div>
+        <div class="MMWX"><img class="MegaX" src="img/MegaMewtwoX.jpg" alt=""></div>
+        <div class="GRA"><img class="GA" src="img/GreninjaAsh.jpg" alt=""></div>
+        <div class="MMWY"><img class="MegaY" src="img/MegaMewtwoY.jpg" alt=""></div>
+    </div>
+    <button onclick="anteriorContenido()" class="flecha1 flecha11"><img src="icon/flechaa-izquierda.png" class="flechaI"></button>
+    <button onclick="siguienteContenido()" class="flecha2 flecha12"><img src="icon/flechaa-derecha.png" class="flechaD"></button>
+</span>
+<div class="tienda-poke">
+   <h1 class="tienda" id="tienda5">Pokémon Shop</h1>
+    <div class="tienda-1" id="tienda1">
+        <img class="shop1" src="img/shop1.png" alt="">
+    <div class="shop-new1">
+        <div class="shop-new"><img src="img/Caja-Astral-Radiance.jpg"><h4>104€</h4></div>
+        <div class="shop-new"><img src="img/Caja-Lost.Origin.jpg"><h4>106€</h4></div>
+        <div class="shop-new shop33"><img src="img/Caja-tempestad.jpg"><h4>132€</h4></div>
+        <div class="shop-new shop44"><img src="img/Eltite-Rojo.png"><h4 class="ree">60€</h4></div>
+    </div>
+    </div>
+    <!-- TIENDA 2 -->
+    <div class="tienda-2" id="tienda2">
+        <img class="shop1" src="img/shop2.png" alt="">
+    <div class="shop-new1">
+        <div class="shop-new"><img class="peluche22" src="img/Pikachu_Peluche.jpg"><h4 class="ree">43€</h4></div>
+        <div class="shop-new"><img class="peluche22" src="img/Charmander_Peluche.jpg"><h4 class="ree">47€</h4></div>
+        <div class="shop-new shop33"><img class="peluche22" src="img/Peluche-Bulbasur.jpg"><h4 class="ree">42€</h4></div>
+        <div class="shop-new shop44"><img class="peluche22" src="img/Squirtle_Peluche.jpg"><h4 class="ree">41€</h4></div>
+    </div>
+    </div>
+    <!-- TIENDA 3 -->
+    <div class="tienda-3" id="tienda3">
+        <img class="shop1" src="img/shop3.png" alt="">
+    <div class="shop-new1">
+        <div class="shop-new"><img src="img/ropa1.jpg"><h4 class="ree">33€</h4></div>
+        <div class="shop-new"><img src="img/ropa3.jpg"><h4 class="ree">56€</h4></div>
+        <div class="shop-new shop33"><img src="img/ropa2.jpg"><h4 class="ree">34€</h4></div>
+        <div class="shop-new shop44"><img src="img/ropa4.jpg"><h4 class="ree">20€</h4></div>
+    </div>
+    </div>
+    <!-- TIENDA 4 -->
+    <div class="tienda-4" id="tienda4">
+        <img class="shop1" src="img/shop4.png" alt="">
+    <div class="shop-new1">
+        <div class="shop-new"><img src="img/home1.jpg"><h4 class="ree">33€</h4></div>
+        <div class="shop-new"><img src="img/home2.jpg"><h4 class="ree">16€</h4></div>
+        <div class="shop-new shop33"><img src="img/home3.jpg"><h4 class="ree">69€</h4></div>
+        <div class="shop-new shop44"><img src="img/home4.jpg"><h4 class="ree">99€</h4></div>
+    </div>
+    </div>
+
+</div>
+<footer class="footer-index">
+    <h3>@Rodrigo Gálvez AND Alejandro Cuadrado</h3>
+    <img src="img/logo-pokeball-grafiti.jfif" >
+    <img class="cola" src="img/PokemonCompany.png">
+    <h4 class="h44">@2023 Pokemón/Nintendo/Creatures/Game Freak</h4>
+</footer>
+   
+</body>
+</html>

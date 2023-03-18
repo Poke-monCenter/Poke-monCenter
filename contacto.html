@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon/favi-pokeball.png">
+    <title>Contacto</title>
+</head>
+<header class="head33 head77">
+    <div class="header-left">
+        <div class="logo">
+            <img src="img/logo-pokeball-grafiti.jfif" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="active">INICIO</a>
+                </li>
+                <li>
+                    <a href="index.html#tienda5">Tienda Pokemon</a>
+                </li>
+                <li>
+                    <a href="GenPoke.html">Pokemon Generations</a>
+                </li>
+                <li>
+                    <a href="tcg.html">TCG</a>
+                </li>
+                <li>
+                    <a href="ash.html">Ash</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+            <div class="login-signup">
+                <a href="login.html">Login</a> or <a href="login.html">Signup</a>
+            </div>
+        </nav>
+    </div>
+    <div class="header-right">
+        <div class="login-signup">
+            <a href="login.html">Login</a> or <a href="login.html">Signup</a>
+        </div>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</header>
+<script>
+    hamburger = document.querySelector(".hamburger");
+    nav = document.querySelector("nav");
+    hamburger.onclick = function() {
+        nav.classList.toggle("active");
+    }
+</script> 
+<body class="contacto">
+   
+    <form method="get" action="mailto:arkblacksheep19@gmail.com">
+    <div class="contenedor-contacto">
+        <h1 class="title3">CONTACTANOS</h1>
+        <input type="text" class="intro1"><span class="letra1">Nombre</span>
+        <hr class="r1">
+        <input type="text" class="intro2"><span class="letra2">Apellido</span>
+        <hr class="r2">
+        <input type="text" class="intro3"><span class="letra3">Email*</span>
+        <hr class="r3">
+        <textarea cols="30" rows="10" class="intro4"></textarea><span class="letra4">Enviar un Mensaje</span>
+        <hr class="r4">
+        <button type="submit" class="enviar">Enviar</button>
+        <span class="letra5">¡Gracias por tu mensaje!</span>
+    </div>
+    </form>
+
+    
+    <div class="vs"><span class="vs3">VS</span>
+        <img src="img/Lucario.png" class="vs1">
+        <img src="img/poke1.png" class="vs2">
+        <img src="img/barra-lucario.jpg" class="vs4">
+        <img src="img/personaje-rodrigo.png" class="personaje2">
+        <img src="img/Personaje-Alex.webp" class="personaje1">
+        <img src="img/barra-greninja.png" class="vs5">
+        <h1 class="vs6">Alex <br> And <br>Greninja </h1>
+        <h1 class="vs7">Rodrigo <br> And <br>Lucario</h1>
+
+    </div>
+    
+    
+    <footer>
+        <h3>@Rodrigo Gálvez AND Alejandro Cuadrado</h3>
+        <img src="img/logo-pokeball-grafiti.jfif" >
+        <img class="cola" src="img/PokemonCompany.png">
+        <h4 class="h44">@2023 Pokemón/Nintendo/Creatures/Game Freak</h4>
+    </footer>
+</body>
+</html>
